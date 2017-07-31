@@ -1,0 +1,9 @@
+{application,elogin,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{elogin_app,[]}},
+              {env,[]},
+              {modules,[elogin_accounts,elogin_app,elogin_router,elogin_srv,
+                        elogin_sup,elogin_util]}]}.
